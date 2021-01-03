@@ -1,2 +1,5 @@
 # Development directories
 node_modules/
+
+# Configuration files
+config.json
