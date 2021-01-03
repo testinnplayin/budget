@@ -11,9 +11,13 @@ import express from "express";
 
 import config from "./config.json";
 
+import budgetItemRouter from "./routes/budget-item";
+
 const app = express();
 
 const PORT = config.PORT;
+
+app.use("budget-items", budgetItemRouter);
 
 app.use("*", (_req, res) => {
   return res.status(404).json({
