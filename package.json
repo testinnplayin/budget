@@ -1,0 +1,17 @@
+{
+  "name": "budget",
+  "version": "1.0.0",
+  "description": "budget tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "budget"
+  ],
+  "author": "Rachelle Wood",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
